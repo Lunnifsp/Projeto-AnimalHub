@@ -1,0 +1,88 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #f2f2f2;
+     color: #333;
+ }
+
+ .box {
+     padding: 70px 1px 1px 1px;
+ }
+
+ .container {
+     max-width: 1000px;
+     margin: 20px auto;
+     padding: 40px;
+     background-color: #ffffff;
+     border-radius: 12px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+     animation: fadeIn 1s ease;
+ }
+
+
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+
+     to {
+         opacity: 1;
+     }
+ }
+
+ h1 {
+     text-align: center;
+     color: #196137;
+     margin-bottom: 40px;
+     font-size: 36px;
+ }
+
+ .contact-info {
+     margin-bottom: 60px;
+ }
+
+ .contact-info h2 {
+     color: #00962d;
+     margin-bottom: 20px;
+     font-size: 28px;
+ }
+
+ .contact-info p {
+     line-height: 1.8;
+     margin-bottom: 20px;
+     font-size: 18px;
+ }
+
+ .contact-info p strong {
+     color: #555;
+ }
+
+ .social-icons {
+     text-align: center;
+ }
+
+ .social-icons h2 {
+    color: #00962d;
+ }
+ .social-icons a {
+     display: inline-block;
+     margin: 0 20px;
+     font-size: 36px;
+     color: #196137;
+     transition: transform 0.3s ease;
+ }
+
+ .social-icons a:hover {
+     animation: spin 1s ease infinite;
+ }
+
+ @keyframes spin {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     100% {
+         transform: rotate(360deg);
+     }
+ }

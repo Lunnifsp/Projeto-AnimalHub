@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Animal Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+</head>
+
+
+
+<body>
+
+    <div class="box">
+        <!-- Cabeçalho -->
+        <header>
+            <nav class="navbar flex">
+                <div class="logo">
+                    <img src="img/logo-nav.png" />
+                </div>
+
+                <div class="links">
+                    <ul class="flex">
+                        <li class="flex-1"><a class="" href="index.html">INÍCIO</a></li>
+                        <li class="flex-1"><a href="sobre.html">SOBRE</a></li>
+                        <li class="flex-1"><a href="cont.html">CONTATO</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-search">
+                    <form id="form-search" name="form-search" action="#" class="flex center">
+                        <input type="text" id="text-search" name="text-search" placeholder="Buscar" />
+                        <input type="button" id="search-submit" name="search-submit" value=""
+                            onclick="submitForm('text-search')" />
+                    </form>
+                </div>
+                <div class="">
+                    <span class="btn-menu" onclick="exibeMenu()"></span>
+                </div>
+            </nav>
+            <div id="menu" class="menu">
+                <ul>
+                    <li class="menu-item"><a href="index.html">INÍCIO</a></li>
+                    <li class="menu-item"><a href="sobre.html">SOBRE</a></li>
+                    <li class="menu-item"><a href="cont.html">CONTATO</a></li>
+                </ul>
+                <div class="menu-search">
+                    <form id="form-menu-search" name="form-menu-search" action="#" class="flex center">
+                        <input type="text" id="menu-text-search" name="text-search" placeholder="Buscar" />
+                        <input type="button" id="menu-search-submit" name="search-submit"
+                            onclick="submitForm('menu-text-search')" value="" />
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="site-header">
+            <div id="arara">SEU PORTAL DE NOTÍCIAS SOBRE ANIMAIS, FAVORITO</div>
+            <div class="ilustration"></div>
+        </div>
+
+        <section class="ultimas-noticias">
+            <div class="section-header">
+                <hr />
+                <h1>ÚLTIMAS NOTÍCIAS</h1>
+                <hr />
+            </div>
+            <div class="noticias">
+                <div class="noticia">
+                    <p>Humanos ameaçam mais de 5 mil espécies de vertebrados, diz estudo. Quase um terço de todas os
+                        animais desse grupo são explorados para alimentação, moda, estimação, caça recreacional e uso
+                        medicinal.
+                    </p>
+                </div>
+                <div class="noticia">
+                    <p>Ibama apreende quase 30 toneladas de barbatanas de tubarão. Operação registrou o maior número de
+                        apreensões de barbatanas já registrado no mundo. Volume equivale a 10.000 tubarões mortos.
+                    </p>
+                </div>
+                <div class="noticia">
+                    <p>A nova esperança para salvar a rara subespécie de rinoceronte da extinção. Experiência bem-sucedida
+                        de fecundação in vitro, técnica comum em humanos, é a aposta dos cientistas.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <div class="section-header">
+                <hr />
+                <h1>tópicos</h1>
+                <hr />
+            </div>
+
+            <div>
+                <div class="card-topicos">
+                    <div class="card-topico tucano">
+                        <a href="animaisextincao.html">
+                            <h6>Animais em extinção</h6>
+                        </a>
+                    </div>
+                    <div class="card-topico urso-polar">
+                        <a href="poblemasambientais.html">
+                            <h6>Problemas ambientais</h6>
+                        </a>
+                    </div>
+                    <div class="card-topico unicornio-siberiano">
+                        <a href="animaisextintos.html">
+                            <h6>Animais extintos</h6>
+                        </a>
+                    </div>
+
+                    <div class="card-topico cacador">
+                        <a href="paisesindices.html">
+                            <h6>Países Índices</h6>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-header">
+                <hr />
+                <h1>web story</h1>
+                <hr />
+            </div>
+
+            <div class="ministory">
+                <div class="story">
+                    <a href="natural.html"><img src="img/elefante.jpg" alt="Snow" /></a>
+                    <p>Extinção de fundo</p>
+                </div>
+
+                <div class="story">
+                    <a href="massa.html"><img src="img/extincao-em-massa.jpg" alt="Snow" /></a>
+                    <p>Extinção em massa</p>
+                </div>
+
+                <div class="story">
+                    <a href="filetica.html"><img src="img/calciotetrio.jpg" alt="Snow" /></a>
+                    <p>Extinção filédica</p>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <footer>
+            <div class="rodape">
+                <div>
+                    <a href="index.html"><img class="footer-image" src="img/logo-nav.png" alt="logo" /></a>
+                </div>
+
+                <div>
+                  <a href="equipe.html"><p>Equipe</p></a>  
+                </div>
+
+                <div>
+                   <a href="cont.html"> <p>Fale conosco</p></a>
+                </div>
+
+                <div>
+                    <h2>
+                        Siga-nos em<br />
+                        nossas redes:
+                    </h2>
+                    <ul class="medias-sociais">
+                        <li>
+                            <a class="facebook" href="https://facebook.com"></a>
+                        </li>
+                        <li>
+                            <a class="twitter" href="https://twitter.com"></a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="https://instagram.com"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+
+    </div> <!-- Box -->
+
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+</body>
+
+</html>

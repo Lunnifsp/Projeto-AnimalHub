@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family:'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    
+}
+body {
+    background-color: #f1f6fc31;
+}
+
+section{
+    padding: 30px 0;
+}
+h3 {
+    font-size: 50px;
+}
+p{
+    color: #ffffff;
+}
+.container{ /*ok*/
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.container p {
+    color: black;
+}
+.box {
+    background-color: #e2e2e2;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*  fim banner */
+
+/*  logo faca mais */
+.logofacamais{
+    border-radius: 70px;
+}
+.logofacamais2{
+    border-radius: 150px;
+    width: 50%;
+}
+/*   fim logo faca mais */
+
+
+/* depoimentos faca mais */
+.faca-mais .container{
+    display:flex;
+    align-items: center;
+}
+.faca-mais .faca-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.faca-mais .faca-mais-text h3{
+    font-size: 56px;
+}
+.faca-mais .faca-mais-text p{
+    margin: 5px 0 10px 0; 
+}
+.faca-mais .faca-mais-img{
+   width: 50%; 
+}
+.faca-mais .faca-mais-img img{
+   width: 90%;
+ }
+
+.margin-left{
+    margin-left: 130px;
+}
+
+/* clientes */
+
+.clientes h3,
+.clientes p{
+    text-align: center;
+}
+.clientes .container div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.depoimentos h3{
+    text-align: center;
+}
+.depoimentos p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* fim depoimentos */
+
+@media(max-width: 830px){
+    
+   
+    /*fim menu-mobile*/
+    /* Pagina menu responsivo*/
+    .faca-mais .faca-mais-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+    }
+    .faca-mais .container{
+    flex-direction: column;
+    }
+    .faca-mais .faca-mais-text h3{
+    font-size: 48px;
+    }
+    .faca-mais .faca-mais-text,
+    .faca-mais .faca-mais-img{
+    width: 100%;
+    }
+    /*banner responsivo*/
+    .banner .banner-text{
+    padding: 0;
+    margin: 80px;
+    }
+    .banner .banner-text h1{
+    font-size: 80px;
+    }
+    .banner .banner-text p{
+    font-size: 15px;
+    }
+    .depoimentos.card-item{
+    width: 100%;
+    }
+    /*pagina sobre responsivo*/
+    .sobre .container{
+    flex-direction: column-reverse;
+    }
+    .sobre .sobre-img,
+    .sobre .sobre-text{
+    width: 100%;
+    }
+    .sobre .sobre-text{
+    margin-top: 40px;
+    }
+    /*pagina contato responsivo*/
+    .contato .contato-info{
+    flex-direction: column-reverse;
+    }
+    .contato .right-side,
+    .contato .left-side{
+    width: 100%;
+    }
+    .contato-info .right-side{
+    margin-bottom: 30px;
+    }
+    @media (max-width:500px){
+    .banner .banner-text h1{
+    font-size: 50px;
+    } 
+    .faca-mais .faca-mais-text h3{
+    font-size: 40px;
+    }
+}
+}
+
+/* comeco Pagina sobre */
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 10px;
+}
+
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000;
+}
+
+.sobre .sobre-img{
+    width: 45%;
+
+}
+.sobre .sobre-img img{
+    width: 80%;
+    border-radius: 75px;
+}
+
+
+/* fechamento Pagina sobre */
+
+
+/* comeco Pagina servicos */
+.servicos h3{
+    text-align: center;
+}
+
+.servicos .container > P{
+    text-align: center;
+}
+
+.servicos .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.servicos .rows-card-item{
+    background-color: #d3fde6;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.servicos .rows-card-item:hover{
+    background-color: #196137;;
+}
+.servicos .rows-card-item:hover p{
+    color: white;
+}
+.servicos .rows-card-item img{
+    background-color: #196137;;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+}
+.servicos .row.card.item p .nome-servico{
+    transition: 0.3s;
+    margin: 5px 0;
+}
+.servicos .row.card.item p .descricao-servico{
+    transition: 0.3s;
+}
+
+/* fechamento Pagina sobre */
