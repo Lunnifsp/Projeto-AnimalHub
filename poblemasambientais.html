@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Problemas Ambientais</title>
+
+    <link rel="stylesheet" href="css/animais.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+
+
+<body>
+    <div class="box">
+        <div class="contaner">
+
+            <!-- Cabeçalho -->
+            <header>
+                <nav class="navbar flex">
+                    <div class="logo">
+                        <img src="img/logo-nav.png" />
+                    </div>
+
+                    <div class="links">
+                        <ul class="flex">
+                            <li class="flex-1"><a class="" href="index.html">INÍCIO</a></li>
+                            <li class="flex-1"><a href="sobre.html">SOBRE</a></li>
+                            <li class="flex-1"><a href="contatos.html">CONTATO</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-search">
+                        <form id="form-search" name="form-search" action="#" class="flex center">
+                            <input type="text" id="text-search" name="text-search" placeholder="Buscar" />
+                            <input type="button" id="search-submit" name="search-submit" value=""
+                                onclick="submitForm('text-search')" />
+                        </form>
+                    </div>
+                    <div class="">
+                        <span class="btn-menu" onclick="exibeMenu()"></span>
+                    </div>
+                </nav>
+                <div id="menu" class="menu">
+                    <ul>
+                        <li class="menu-item"><a class="" href="index.html">INÍCIO</a></li>
+                        <li class="menu-item"><a href="sobre.html">SOBRE</a></li>
+                        <li class="menu-item"><a href="contatos.html">CONTATO</a></li>
+                    </ul>
+                    <div class="menu-search">
+                        <form id="form-menu-search" name="form-menu-search" action="#" class="flex center">
+                            <input type="text" id="menu-text-search" name="text-search" placeholder="Buscar" />
+                            <input type="button" id="menu-search-submit" name="search-submit"
+                                onclick="submitForm('menu-text-search')" value="" />
+                        </form>
+                    </div>
+                </div>
+            </header>
+
+            <br><br><br>
+            <section class="clientes">
+                <div class="container">
+                    <h3>Aquecimento global: </h3><br>
+                    <p class="vai"> É uma ameaça cada vez mais evidente para a biodiversidade do nosso planeta,
+                        desempenhando um papel
+                        significativo na extinção de animais em todo o mundo. À medida que as temperaturas médias
+                        aumentam, os
+                        habitats naturais dos animais enfrentam mudanças drásticas e muitas vezes rápidas, tornando-se
+                        inadequados
+                        para sua sobrevivência. Espécies adaptadas a ambientes específicos enfrentam desafios para
+                        migrar ou se
+                        ajustar a novas condições, levando a uma diminuição da diversidade genética e, em última
+                        instância, à
+                        extinção. Além disso, eventos climáticos extremos, como secas prolongadas, incêndios florestais
+                        e
+                        tempestades intensas, amplificados pelo aquecimento global, exacerbam ainda mais a pressão sobre
+                        as
+                        populações animais já vulneráveis. Proteger essas espécies ameaçadas não é apenas uma questão de
+                        conservação, mas também uma necessidade vital para a saúde dos ecossistemas e para o futuro do
+                        nosso
+                        planeta.</p>
+
+
+                </div>
+            </section><br><br><br>
+
+
+
+            <section class="servicos">
+                <div class="container">
+                    <h3>Dados e estatíscas:</h3>
+                    <br><br>
+                    <!--começo cards-->
+                    <div class="rows-cards">
+                        <!--começo card 1-->
+                        <div class="rows-card-item">
+                            <img src="img/arvore.png" alt="">
+                            <p class="nome-servico"><strong>Área de Floresta Perdida Anualmente:</strong></p>
+                            <p class="descricao-ser">
+                                Entre 2001 e 2020, uma média de aproximadamente 10 milhões de hectares de floresta foram
+                                perdidos anualmente em todo o mundo devido ao desmatamento.
+                            </p>
+                        </div>
+                        <!--fechamento card 1-->
+                        <!--começo card 2-->
+                        <div class="rows-card-item">
+                            <img src="img/vaca.png" alt="">
+                            <p class="nome-servico"><strong>Espécies Terrestres Afetadas: </strong></p>
+                            <p class="descricao-ser">
+                                Cerca de 15.000 espécies de plantas e animais correm o risco de extinção devido ao
+                                desmatamento
+                                de suas áreas de habitat.
+                            </p>
+                        </div>
+                        <!--fechamento card 2-->
+                        <!--começo card 3-->
+                        <div class="rows-card-item">
+                            <img src="img/tomate.png" alt="">
+                            <p class="nome-servico"><strong>Impacto na Cadeia Alimentar:</strong></p>
+                            <p class="descricao-ser">
+                                O desmatamento pode resultar na perda de até 50% das espécies animais em ecossistemas
+                                florestais
+                                afetados, devido à redução na disponibilidade de alimentos e à degradação do habitat.
+                            </p>
+                        </div>
+                        <!--fechamento card 3-->
+
+                        <br><br><br><br>
+
+
+
+                        <!--animal 1-->
+                        <section class="faca-mais">
+                            <div class="container">
+                                <div class="faca-mais-img">
+                                    <img class="logofacamais" src="img/pexels-oandremoura-2532064.jpg" alt="">
+                                </div>
+                                <div class="faca-mais-text">
+                                    <h3>Desmatamento</h3>
+                                    <p> O desmatamento é um dos principais impulsionadores da extinção de animais em
+                                        todo o mundo, especialmente nas regiões tropicais, onde a biodiversidade é
+                                        excepcionalmente rica. Quando as florestas são derrubadas para dar lugar a
+                                        atividades humanas como agricultura, mineração e urbanização, os habitats vitais
+                                        dos animais desaparecem, deixando muitas espécies em perigo. A perda de habitat
+                                        é apenas o começo: o desmatamento também aumenta a vulnerabilidade dos animais a
+                                        outras ameaças, como caça ilegal e tráfico de animais selvagens, que contribuem
+                                        significativamente para o declínio das populações animais. Além disso, a
+                                        fragmentação das florestas resultante do desmatamento pode isolar populações
+                                        animais, reduzindo a diversidade genética e aumentando a suscetibilidade a
+                                        doenças e outros fatores ambientais adversos.
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </section>
+                        <br><br><br>
+                        <!--animal 2-->
+                        <section class="faca-mais">
+                            <div class="container">
+                                <div class="faca-mais-text">
+                                    <h3>Poluição-atmosferica</h3>
+                                    <p>No cenário contemporâneo, a poluição atmosférica emerge como um desafio premente
+                                        que transcende fronteiras
+                                        geográficas e afeta milhões de vidas em todo o mundo. De metrópoles movimentadas
+                                        a recantos remotos, a
+                                        presença de poluentes no ar é uma realidade que não pode ser ignorada. A
+                                        poluição atmosférica, resultado de
+                                        uma interseção complexa de atividades industriais, transporte, agricultura e
+                                        práticas cotidianas, representa
+                                        uma ameaça significativa para a saúde humana, a biodiversidade e o clima global.
+                                    </p>
+
+                                </div>
+                                <div class="faca-mais-img">
+                                    <img class="logofacamais" src="img/pexels-pixabay-459728.jpg" alt="">
+                                </div>
+                            </div>
+                        </section>
+                        <br><br><br>
+
+                        <section class="sobre">
+                            <div class="container">
+                                <div class="sobre-text">
+                                    <h3>Poluição hidrica e solos</h3>
+                                    <p>
+                                        A poluição hídrica e do solo é uma preocupação global que ameaça a
+                                        biodiversidade e a sustentabilidade dos ecossistemas. O despejo indiscriminado
+                                        de resíduos industriais, agrícolas e domésticos nos corpos d'água e no solo
+                                        resulta na degradação dos habitats naturais e na contaminação de recursos
+                                        essenciais para a vida. Essa poluição contribui significativamente para a
+                                        extinção de espécies aquáticas e terrestres, comprometendo a cadeia alimentar e
+                                        afetando a saúde humana. Ações urgentes são necessárias para controlar e reduzir
+                                        a poluição, promovendo práticas sustentáveis de gestão de resíduos e conservação
+                                        ambiental. Somente através de esforços conjuntos e políticas eficazes podemos
+                                        proteger nossos recursos naturais e evitar a extinção de espécies vulneráveis.
+
+
+                                    </p>
+
+                                </div>
+                                <div class="sobre-img">
+                                    <img src="img/pexels-stijn-dijkstra-1306815-2583836.jpg" style="margin-left: 150px"
+                                        alt="Sobre">
+                                </div>
+                            </div>
+                    </div>
+            </section>
+
+            <footer>
+                <div class="rodape">
+                    <div>
+                        <a href="index.html"><img class="footer-image" src="img/logo-nav.png" alt="logo" /></a>
+                    </div>
+
+                    <div>
+                        <a href="equipe.html">
+                            <p>Equipe</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="cont.html">
+                            <p>Fale conosco</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <h2>
+                            Siga-nos em<br />
+                            nossas redes:
+                        </h2>
+                        <ul class="medias-sociais">
+                            <li>
+                                <a class="facebook" href="https://facebook.com"></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="https://twitter.com"></a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="https://instagram.com"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/navbar.js"></script>
+
+</html>

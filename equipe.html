@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa Equipe de Produção</title>
+  <link rel="stylesheet" href="css/equipe.css">
+  <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar flex">
+      <div class="logo">
+        <img src="img/logo-nav.png" />
+      </div>
+
+      <div class="links">
+        <ul class="flex">
+          <li class="flex-1"><a class="" href="index.html">INÍCIO</a></li>
+          <li class="flex-1"><a href="sobre.html">SOBRE</a></li>
+          <li class="flex-1"><a href="contatos.html">CONTATO</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-search">
+        <form id="form-search" name="form-search" action="#" class="flex center">
+          <input type="text" id="text-search" name="text-search" placeholder="Buscar" />
+          <input type="button" id="search-submit" name="search-submit" value="" onclick="submitForm('text-search')" />
+        </form>
+      </div>
+      <div class="">
+        <span class="btn-menu" onclick="exibeMenu()"></span>
+      </div>
+    </nav> 
+
+    <div id="menu" class="menu">
+      <ul>
+        <li class="menu-item"><a class="" href="index.html">INÍCIO</a></li>
+        <li class="menu-item"><a href="sobre.html">SOBRE</a></li>
+        <li class="menu-item"><a href="contatos.html">CONTATO</a></li>
+      </ul>
+      <div class="menu-search">
+        <form id="form-menu-search" name="form-menu-search" action="#" class="flex center">
+          <input type="text" id="menu-text-search" name="text-search" placeholder="Buscar" />
+          <input type="button" id="menu-search-submit" name="search-submit" onclick="submitForm('menu-text-search')"
+            value="" />
+        </form>
+
+      </div>
+
+    </div>
+
+  </header>
+  <div class="container">
+    <h1>Nossa Equipe de Produção</h1>
+    <div class="team">
+      <div class="member">
+        <img src="img/danilo-equipe.jpg" alt="Foto do Membro 1">
+        <h2>Danilo Morais Portella</h2>
+        <p>Idade: 16</p>
+        <p> Trabalhou na página principal</p>
+      </div>
+
+      <div class="member">
+        <img src="img/davi-equipe.png" alt="Foto do Membro 2">
+        <h2>Davi Oliveira </h2>
+        <p>Idade: 16</p>
+        <p>Trabalhou: Sobre e Contatos</p>
+      </div>
+
+      <div class="member">
+        <img src="img/joao-equipe.png" alt="Foto do Membro 3">
+        <h2>João Lucas</h2>
+        <p>Idade: 16</p>
+        <p>Trabalhou: Web Storys</p>
+      </div>
+
+      <div class="member">
+        <img src="img/luanna.png" alt="Foto do Membro 4">
+        <h2>Luanna Fiedler</h2>
+        <p>Idade: 18</p>
+        <p>Trabalhaou: WebStorys e Animais em Extintos</p>
+      </div>
+
+      <div class="member">
+        <img src="img/pedro-equipe.jpg" alt="Foto do Membro 5">
+        <h2>Pedro Luiz </h2>
+        <p>Idade: 16</p>
+        <p>Trabalhou: Índices de países e logo</p>
+      </div>
+
+      <div class="member">
+        <img src="img/victor-equipe.jpg" alt="Foto do Membro 6">
+        <h2>Victor Hugo</h2>
+        <p>Idade: 17</p>
+        <p>Trabalhou: Poblemas Ambientais e Animais em Extinção</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
